@@ -1,0 +1,40 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 14
+VisualStudioVersion = 14.0.25420.1
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GooglePhotoSyncCmd", "GooglePhotoSyncCmd\GooglePhotoSyncCmd.csproj", "{3CDE5D9D-141A-4726-843F-EDBD28879FA8}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GooglePhotoSyncLib", "GooglePhotoSyncLib\GooglePhotoSyncLib.csproj", "{83F395DB-C77C-4C9C-93B0-BAE40DED500D}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GooglePhotoSyncService", "GooglePhotoSyncService\GooglePhotoSyncService.csproj", "{6762D6A2-121B-44B3-AB88-3DAF8CC69D64}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GooglePhotoSyncManager", "GooglePhotoSyncManager\GooglePhotoSyncManager.csproj", "{4D116EB2-DEDD-4C70-A0F4-DC5B6EBA642E}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{3CDE5D9D-141A-4726-843F-EDBD28879FA8}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3CDE5D9D-141A-4726-843F-EDBD28879FA8}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3CDE5D9D-141A-4726-843F-EDBD28879FA8}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3CDE5D9D-141A-4726-843F-EDBD28879FA8}.Release|Any CPU.Build.0 = Release|Any CPU
+		{83F395DB-C77C-4C9C-93B0-BAE40DED500D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{83F395DB-C77C-4C9C-93B0-BAE40DED500D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{83F395DB-C77C-4C9C-93B0-BAE40DED500D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{83F395DB-C77C-4C9C-93B0-BAE40DED500D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{6762D6A2-121B-44B3-AB88-3DAF8CC69D64}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6762D6A2-121B-44B3-AB88-3DAF8CC69D64}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6762D6A2-121B-44B3-AB88-3DAF8CC69D64}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6762D6A2-121B-44B3-AB88-3DAF8CC69D64}.Release|Any CPU.Build.0 = Release|Any CPU
+		{4D116EB2-DEDD-4C70-A0F4-DC5B6EBA642E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4D116EB2-DEDD-4C70-A0F4-DC5B6EBA642E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4D116EB2-DEDD-4C70-A0F4-DC5B6EBA642E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4D116EB2-DEDD-4C70-A0F4-DC5B6EBA642E}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

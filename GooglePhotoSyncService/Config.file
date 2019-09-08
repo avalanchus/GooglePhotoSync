@@ -1,0 +1,15 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<configuration>
+    <appSettings>
+      <!-- Папки с файлами для синхронизации с гугл-диском -->
+      <add key="Exclusions" value="джипег;джипеги;жипег;жипеги;jpg;jpeg" />
+      <!-- Расширения синхронизируемых файлов -->
+      <add key="Extensions" value="jpg;jpeg" />
+      <!-- В секундах -->
+      <add key="Period" value="120" />
+      <!-- Папка-источник -->
+      <add key="SourceFolder" value="C:\4kill\1" />
+      <!-- Папка-приёмник -->
+      <add key="DestFolder" value="C:\4kill\qwerty" />
+    </appSettings>
+</configuration>
