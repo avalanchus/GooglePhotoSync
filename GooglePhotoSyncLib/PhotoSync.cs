@@ -112,7 +112,7 @@ namespace GooglePhotoSyncLib
             // Добавляем слеш в конец папки-приёмника, если отсутствует
             if (destPath.Substring(destPath.Length - 1) == slash)
                 destPath = destPath.Substring(0, destPath.Length - 1);
-
+            Exclusions.Add(String.Empty);
             foreach (var sourceSubFolder in subFolders)
             {
                 // Относительный путь в папке-источнике
